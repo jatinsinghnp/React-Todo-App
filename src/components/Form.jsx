@@ -26,13 +26,12 @@ const Form = () => {
         if (a.id !== id) {
           return a;
         }
+        return;
       })
     );
   };
 
-  const check=()=>{
-    
-  }
+  const check = () => {};
 
   //returns
 
